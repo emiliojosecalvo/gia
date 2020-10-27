@@ -3,9 +3,29 @@ body {
 }
 
 footer a {
-    font-size: 5rem;
+    font-size: 1.5rem;
 }
 
-#carouselEf img {
-    height: 500px;
+/* #carouselEf img {
+    max-width: 100%;
+    max-height: auto;
+    position: relative;
+    vertical-align: middle;
+    left: 50%;
+    transform: translate(-50%);
+    height: 600px;
+    width: 600px;
+    object-fit:cover;
 }
+
+#mob img {
+    max-width: 100%;
+  max-height: auto;
+  position: relative;
+  vertical-align: middle;
+  left: 50%;
+  transform: translate(-50%);
+  height: 200px;
+  width: 200px;
+  object-fit:cover;
+} */
