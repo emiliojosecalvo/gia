@@ -6,26 +6,55 @@ footer a {
     font-size: 1.5rem;
 }
 
-/* #carouselEf img {
-    max-width: 100%;
-    max-height: auto;
+/* gallery  */
+/* The grid: Four equal columns that floats next to each other */
+.column2 {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column2 img {
+    opacity: 0.8;
+    cursor: pointer;
+  }
+  
+  .column2 img:hover {
+    opacity: 1;
+  }
+  
+ 
+  /* The expanding image container (positioning is needed to position the close button and the text) */
+  .cont2 {
     position: relative;
-    vertical-align: middle;
-    left: 50%;
-    transform: translate(-50%);
-    height: 600px;
-    width: 600px;
-    object-fit:cover;
-}
+    display: none;
 
-#mob img {
-    max-width: 100%;
-  max-height: auto;
-  position: relative;
-  vertical-align: middle;
-  left: 50%;
-  transform: translate(-50%);
-  height: 200px;
-  width: 200px;
-  object-fit:cover;
-} */
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the image */
+  .closebtn2 {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+  }
+
+  .zoom {
+    transition: transform .3s; /* Animation */
+  }
+  
+  .zoom:hover {
+    transform: scale(1.25); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
